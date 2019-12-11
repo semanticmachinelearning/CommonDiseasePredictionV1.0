@@ -1,0 +1,242 @@
+@prefix ns1: <http://ai.symptomchecking.org/condtion/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+ns1:Acute_cholecystitis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Acute_lymphoblastic_leukaemia ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Acute_lymphoblastic_leukaemia_Children ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Acute_lymphoblastic_leukaemia_Teenagers_and_young_adults ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Bronchiectasis ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "Cough:0.0625" .
+
+ns1:Bronchitis ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Cellulitis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Chest_pain ns1:causes <http://dbpedia.org/resource/Chest_pain> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "ageOrGender:0.5" .
+
+ns1:Chronic_obstructive_pulmonary_disease ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0625",
+        "ageOrGender:0.5" .
+
+ns1:Common_cold ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Congenital_heart_disease ns1:causes <http://dbpedia.org/resource/Chest_pain> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "ageOrGender:0.5" .
+
+ns1:Cough ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0625" .
+
+<http://ai.symptomchecking.org/condtion/Crohn's_disease> ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Croup ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Cystitis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Ebola_virus_disease ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Febrile_seizures ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Flu ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027" .
+
+ns1:Food_poisoning ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Gallstones ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Gastroenteritis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Glandular_fever ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Hay_fever ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Hepatitis_A ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Hepatitis_C ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Hodgkin_lymphoma ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Hodgkin_lymphoma_Children ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Hodgkin_lymphoma_Teeangers_and_young_adults ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Kidney_infection ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Lupus ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Measles ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Meningitis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Mesothelioma ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0625" .
+
+ns1:Mumps ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Oesophageal_cancer ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0625",
+        "ageOrGender:0.5" .
+
+ns1:Otitis_externa ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Peripheral_neuropathy ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Rheumatoid_arthritis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+ns1:Sinusitis ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027" .
+
+ns1:Tonsillitis ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Whooping_cough ns1:causes <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Yellow_fever ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" .
+
+<http://dbpedia.org/resource/Costochondritis> ns1:causes <http://dbpedia.org/resource/Chest_pain> ;
+    ns1:hasProbability "Chest_pain:0.037037037037" ;
+    ns1:linkTo ns1:Costochondritis .
+
+<http://dbpedia.org/resource/Diabetes_mellitus> ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0104166666667" ;
+    ns1:linkTo ns1:Pneumonia .
+
+<http://dbpedia.org/resource/Disease> ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Chest_pain:0.037037037037",
+        "Cough:0.0104166666667" ;
+    ns1:linkTo ns1:Costochondritis,
+        ns1:Pneumonia .
+
+<http://dbpedia.org/resource/Encephalopathy> ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027" ;
+    ns1:linkTo ns1:Chickenpox .
+
+<http://dbpedia.org/resource/Fibrosis> ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0104166666667" ;
+    ns1:linkTo ns1:Pneumonia .
+
+<http://dbpedia.org/resource/Medical_emergency> ns1:causes <http://dbpedia.org/resource/Chest_pain> ;
+    ns1:hasProbability "Chest_pain:0.037037037037" ;
+    ns1:linkTo ns1:Costochondritis .
+
+<http://dbpedia.org/resource/Pathogenic_bacteria> ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0104166666667" ;
+    ns1:linkTo ns1:Pneumonia .
+
+<http://dbpedia.org/resource/Respiratory_disease> ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0104166666667" ;
+    ns1:linkTo ns1:Pneumonia .
+
+<http://dbpedia.org/resource/Viral_disease> ns1:causes <http://dbpedia.org/resource/Cough> ;
+    ns1:hasProbability "Cough:0.0104166666667" ;
+    ns1:linkTo ns1:Pneumonia .
+
+ns1:Chickenpox ns1:causes <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
+ns1:Costochondritis ns1:causes <http://dbpedia.org/resource/Chest_pain> ;
+    ns1:hasProbability "Chest_pain:0.111111111111" .
+
+ns1:Pneumonia ns1:causes <http://dbpedia.org/resource/Chest_pain>,
+        <http://dbpedia.org/resource/Cough>,
+        <http://dbpedia.org/resource/Fever> ;
+    ns1:hasProbability "Chest_pain:0.111111111111",
+        "Cough:0.0625",
+        "Fever:0.027027027027",
+        "ageOrGender:0.5" .
+
