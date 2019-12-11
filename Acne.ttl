@@ -1,0 +1,326 @@
+@prefix ns1: <http://ai.symptomchecking.org/condtion/> .
+@prefix ns2: <http://dbpedia.org/ontology/> .
+@prefix ns3: <http://www.w3.org/2002/07/owl#> .
+@prefix ns4: <http://purl.org/dc/elements/1.1/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix xml: <http://www.w3.org/XML/1998/namespace> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<http://dbpedia.org/resource/Acid> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Acid114607521>,
+        <http://dbpedia.org/class/yago/Chemical114806838>,
+        <http://dbpedia.org/class/yago/Compound114818238>,
+        <http://dbpedia.org/class/yago/Material114580897>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/class/yago/Substance100019613>,
+        <http://dbpedia.org/class/yago/WikicatAcids>,
+        ns2:ChemicalCompound,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Adolescence> a ns2:Person,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Androgen> a ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Antibiotics> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Bactericide114772185>,
+        <http://dbpedia.org/class/yago/Chemical114806838>,
+        <http://dbpedia.org/class/yago/Material114580897>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/class/yago/Substance100019613>,
+        <http://dbpedia.org/class/yago/WikicatBactericides>,
+        ns2:ChemicalCompound,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Anxiety> a <http://dbpedia.org/resource/Category:Symptoms_and_signs>,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Bacteria> a ns2:Bacteria,
+        ns2:Species,
+        <http://umbel.org/umbel/rc/Bacterium>,
+        <http://umbel.org/umbel/rc/BiologicalLivingObject>,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Benzoyl_group> a ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Carbohydrate> a ns2:ChemicalCompound,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Combined_oral_contraceptive_pill> a <http://dbpedia.org/class/yago/Ability105616246>,
+        <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Act100030358>,
+        <http://dbpedia.org/class/yago/Activity100407535>,
+        <http://dbpedia.org/class/yago/BirthControl100851994>,
+        <http://dbpedia.org/class/yago/BodySubstance105263850>,
+        <http://dbpedia.org/class/yago/Cognition100023271>,
+        <http://dbpedia.org/class/yago/Event100029378>,
+        <http://dbpedia.org/class/yago/Hormone105407119>,
+        <http://dbpedia.org/class/yago/Know-how105616786>,
+        <http://dbpedia.org/class/yago/LiquidBodySubstance105397468>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/Method105660268>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Planning101144133>,
+        <http://dbpedia.org/class/yago/Preparation101143040>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/class/yago/Secretion105404728>,
+        <http://dbpedia.org/class/yago/SteroidHormone114745635>,
+        <http://dbpedia.org/class/yago/Substance100019613>,
+        <http://dbpedia.org/class/yago/WikicatMethodsOfBirthControl>,
+        <http://dbpedia.org/class/yago/WikicatSexHormones>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        ns2:Software,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Dieting> a <http://dbpedia.org/class/yago/Diet107561112>,
+        <http://dbpedia.org/class/yago/Fare107560652>,
+        <http://dbpedia.org/class/yago/Food100021265>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Substance100020090>,
+        <http://dbpedia.org/class/yago/WikicatDiets>,
+        ns2:Company,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Genetics> a ns2:Book,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Infection> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Isotretinoin> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Acid114607521>,
+        <http://dbpedia.org/class/yago/Act100030358>,
+        <http://dbpedia.org/class/yago/Activity100407535>,
+        <http://dbpedia.org/class/yago/CarboxylicAcid114739360>,
+        <http://dbpedia.org/class/yago/Care100654885>,
+        <http://dbpedia.org/class/yago/Chemical114806838>,
+        <http://dbpedia.org/class/yago/Compound114818238>,
+        <http://dbpedia.org/class/yago/Event100029378>,
+        <http://dbpedia.org/class/yago/Material114580897>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Preparation101143040>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/class/yago/Substance100019613>,
+        <http://dbpedia.org/class/yago/Treatment100658082>,
+        <http://dbpedia.org/class/yago/WikicatAcneTreatments>,
+        <http://dbpedia.org/class/yago/WikicatAnti-acnePreparations>,
+        <http://dbpedia.org/class/yago/WikicatCarboxylicAcids>,
+        <http://dbpedia.org/class/yago/Work100575741>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        ns2:ChemicalSubstance,
+        ns2:Drug,
+        <http://umbel.org/umbel/rc/DrugProduct>,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject>,
+        ns3:Thing,
+        <http://www.wikidata.org/entity/Q8386> ;
+    ns1:signOf ns1:Acne ;
+    ns2:Drug ns1:Acne .
+
+<http://dbpedia.org/resource/Major_depressive_disorder> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Monosaccharide> a ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Oil> a ns2:ChemicalCompound,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Peroxide> a ns2:ChemicalCompound,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Propionibacterium_acnes> a <http://dbpedia.org/class/yago/Bacteria101348530>,
+        <http://dbpedia.org/class/yago/LivingThing100004258>,
+        <http://dbpedia.org/class/yago/Microorganism101326291>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Organism100004475>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Whole100003553>,
+        <http://dbpedia.org/class/yago/WikicatGram-positiveBacteria>,
+        ns2:Species,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Puberty> a ns2:Election,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Retinoid> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Acid114607521>,
+        <http://dbpedia.org/class/yago/Antioxidant114724645>,
+        <http://dbpedia.org/class/yago/CarboxylicAcid114739360>,
+        <http://dbpedia.org/class/yago/Carotenoid114720962>,
+        <http://dbpedia.org/class/yago/Chemical114806838>,
+        <http://dbpedia.org/class/yago/ColoringMaterial114984973>,
+        <http://dbpedia.org/class/yago/Compound114818238>,
+        <http://dbpedia.org/class/yago/Hydrocarbon114911057>,
+        <http://dbpedia.org/class/yago/Inhibitor114724436>,
+        <http://dbpedia.org/class/yago/Material114580897>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/OrganicCompound114727670>,
+        <http://dbpedia.org/class/yago/Part113809207>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Phytochemical114983143>,
+        <http://dbpedia.org/class/yago/Pigment114989820>,
+        <http://dbpedia.org/class/yago/Relation100031921>,
+        <http://dbpedia.org/class/yago/Substance100019613>,
+        <http://dbpedia.org/class/yago/Substance100020090>,
+        <http://dbpedia.org/class/yago/Terpene115068635>,
+        <http://dbpedia.org/class/yago/WikicatCarboxylicAcids>,
+        <http://dbpedia.org/class/yago/WikicatCarotenoids>,
+        <http://dbpedia.org/class/yago/WikicatTerpenesAndTerpenoids>,
+        ns2:ChemicalCompound ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Rural_area> a <http://dbpedia.org/class/yago/Environment108567235>,
+        <http://dbpedia.org/class/yago/GeographicalArea108574314>,
+        <http://dbpedia.org/class/yago/Habitat108580583>,
+        <http://dbpedia.org/class/yago/Location100027167>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Region108630039>,
+        <http://dbpedia.org/class/yago/Region108630985>,
+        <http://dbpedia.org/class/yago/WikicatHumanHabitats>,
+        <http://dbpedia.org/class/yago/WikicatRegions>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        ns2:Place ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Suicide> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Sunburn> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Testosterone> a ns2:ChemicalSubstance,
+        ns2:Drug,
+        ns2:Protein,
+        <http://www.ontologydesignpatterns.org/ont/dul/DUL.owl#ChemicalObject>,
+        ns3:Thing,
+        <http://www.wikidata.org/entity/Q8386> ;
+    ns1:signOf ns1:Acne ;
+    ns2:Drug ns1:Acne .
+
+<http://dbpedia.org/resource/Tobacco_smoking> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Cognition100023271>,
+        <http://dbpedia.org/class/yago/Condition113920835>,
+        <http://dbpedia.org/class/yago/Custom105667404>,
+        <http://dbpedia.org/class/yago/Disease114070360>,
+        <http://dbpedia.org/class/yago/Habit105669034>,
+        <http://dbpedia.org/class/yago/IllHealth114052046>,
+        <http://dbpedia.org/class/yago/Illness114061805>,
+        <http://dbpedia.org/class/yago/PathologicalState114051917>,
+        <http://dbpedia.org/class/yago/PhysicalCondition114034177>,
+        <http://dbpedia.org/class/yago/Practice105667196>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatHabits>,
+        ns2:Company,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Topical_medication> a <http://dbpedia.org/class/yago/Agent114778436>,
+        <http://dbpedia.org/class/yago/CausalAgent100007347>,
+        <http://dbpedia.org/class/yago/Drug103247620>,
+        <http://dbpedia.org/class/yago/Line108593262>,
+        <http://dbpedia.org/class/yago/Location100027167>,
+        <http://dbpedia.org/class/yago/Matter100020827>,
+        <http://dbpedia.org/class/yago/Medicine103740161>,
+        <http://dbpedia.org/class/yago/Object100002684>,
+        <http://dbpedia.org/class/yago/Ointment103845550>,
+        <http://dbpedia.org/class/yago/Path108616311>,
+        <http://dbpedia.org/class/yago/PhysicalEntity100001930>,
+        <http://dbpedia.org/class/yago/Remedy104074482>,
+        <http://dbpedia.org/class/yago/Substance100020090>,
+        <http://dbpedia.org/class/yago/WikicatOintments>,
+        <http://dbpedia.org/class/yago/WikicatRoutesOfAdministration>,
+        <http://dbpedia.org/class/yago/YagoGeoEntity>,
+        <http://dbpedia.org/class/yago/YagoLegalActorGeo>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        ns2:Drug ;
+    ns1:signOf ns1:Acne ;
+    ns2:Drug ns1:Acne .
+
+<http://dbpedia.org/resource/Western_world> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Act100030358>,
+        <http://dbpedia.org/class/yago/Activity100407535>,
+        <http://dbpedia.org/class/yago/Categorization101012712>,
+        <http://dbpedia.org/class/yago/Civilization108111783>,
+        <http://dbpedia.org/class/yago/Cognition100023271>,
+        <http://dbpedia.org/class/yago/Concept105835747>,
+        <http://dbpedia.org/class/yago/Content105809192>,
+        <http://dbpedia.org/class/yago/Event100029378>,
+        <http://dbpedia.org/class/yago/Group100031264>,
+        <http://dbpedia.org/class/yago/Grouping101012360>,
+        <http://dbpedia.org/class/yago/Idea105833840>,
+        <http://dbpedia.org/class/yago/PsychologicalFeature100023100>,
+        <http://dbpedia.org/class/yago/SocialGroup107950920>,
+        <http://dbpedia.org/class/yago/Society107966140>,
+        <http://dbpedia.org/class/yago/WikicatCivilizations>,
+        <http://dbpedia.org/class/yago/WikicatCountryClassifications>,
+        <http://dbpedia.org/class/yago/WikicatCulturalConcepts>,
+        <http://dbpedia.org/class/yago/YagoPermanentlyLocatedEntity>,
+        ns3:Thing ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Acne_vulgaris> a <http://dbpedia.org/resource/Category:Symptoms_and_signs> ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Comedo> a ns2:Disease,
+        <http://dbpedia.org/resource/Category:Symptoms_and_signs>,
+        ns3:Thing,
+        <http://www.wikidata.org/entity/Q12136> ;
+    ns1:signOf ns1:Acne ;
+    ns1:symptomOf ns1:Acne .
+
+<http://dbpedia.org/resource/Cutaneous_condition> a <http://dbpedia.org/class/yago/Abstraction100002137>,
+        <http://dbpedia.org/class/yago/Attribute100024264>,
+        <http://dbpedia.org/class/yago/Condition113920835>,
+        <http://dbpedia.org/class/yago/State100024720>,
+        <http://dbpedia.org/class/yago/WikicatCutaneousConditions>,
+        ns2:Disease,
+        ns3:Thing,
+        <http://www.wikidata.org/entity/Q12136> ;
+    ns1:signOf ns1:Acne .
+
+<http://dbpedia.org/resource/Hair_follicle> a ns2:AnatomicalStructure .
+
+<http://dbpedia.org/resource/Skin> a ns2:AnatomicalStructure .
+
+ns1:Acne a ns2:Disease ;
+    ns1:anatomicOn <http://dbpedia.org/resource/Hair_follicle>,
+        <http://dbpedia.org/resource/Skin> ;
+    ns1:linkTo <http://dbpedia.org/resource/Comedo>,
+        <http://dbpedia.org/resource/Cutaneous_condition> ;
+    ns4:abstract "Acne vulgaris (or simply acne) is a long-term skin disease that occurs when hair follicles become clogged with dead skin cells and oil from the skin. Acne is characterized by areas of blackheads, whiteheads, pimples, and greasy skin, and may result in scarring. The resulting appearance can lead to anxiety, reduced self-esteem and, in extreme cases, depression or thoughts of suicide. Genetics is thought to be the cause in 80% of cases. The role of diet and cigarette smoking is unclear and neither cleanliness nor sunlight appear to be involved. Acne primarily affects skin with a greater number of oil glands, including the face, upper part of the chest, and back. During puberty, in both sexes, acne is often brought on by an increase in androgens such as testosterone. Excessive growth of the bacteria Propionibacterium acnes, which is normally present on the skin, is often involved. Many treatment options are available to improve the appearance of acne, including lifestyle changes, procedures, and medications. Eating fewer simple carbohydrates like sugar may help. Topical azelaic acid, benzoyl peroxide, and salicylic acid are commonly used treatments. Antibiotics and retinoids are available in both topical and oral formulations to treat acne. However, resistance to antibiotics may develop. A number of birth control pills may be useful for preventing acne in women. Oral isotretinoin is usually reserved for severe acne due to greater potential side effects. Early and aggressive treatment is advocated by some to lessen the overall long-term impact to individuals. In 2013, acne was estimated to affect 660 million people globally, making it the 8th most common disease worldwide. Acne occurs most commonly during adolescence, affecting an estimated 80–90% of teenagers in the Western world. Lower rates are reported in some rural societies. People may also be affected before and after puberty. Though it becomes less common in adulthood than in adolescence, nearly half of people in their twenties and thirties continue to have acne. About 4% continue to have difficulties into their forties."@en ;
+    ns3:sameAs <http://dbpedia.org/resource/Acne_vulgaris> .
+
